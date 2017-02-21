@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AvtoInfo</string>
+
+    <string name="nav_napacna_prijava">Napačno uporabniško ime ali geslo</string>
+    <string name="title_activity_nastavitve">Nastavitve</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Osnovno</string>
+    <string name="pref_general_service_title">Service</string>
+    <string name="pref_general_service_default">http://54.93.111.54:5550/AvtoService.asmx</string>
+
+    <string name="pref_general_namespace_title">Ime namespace</string>
+    <string name="pref_general_namespace_default">http://tempuri.org/</string>
+
+    <string name="pref_general_timeout_title">Timeout</string>
+    <string name="pref_general_timeout_default">4000</string>
+
+
+    <!-- menu -->
+    <string name="menu_nastavitve">Nastavitve</string>
+
+
+</resources>

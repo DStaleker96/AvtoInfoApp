@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<SwitchPreference
+        android:defaultValue="true"
+        android:key="example_switch"
+        android:summary="@string/pref_description_social_recommendations"
+        android:title="@string/pref_title_social_recommendations" />-->
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:defaultValue="@string/pref_general_service_default"
+        android:inputType="text"
+        android:key="pref_service"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_general_service_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_general_namespace_default"
+        android:inputType="text"
+        android:key="pref_namespace"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_general_namespace_title" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_general_timeout_default"
+        android:inputType="number"
+        android:key="pref_timeout"
+        android:numeric="integer"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_general_timeout_title" />
+
+
+</PreferenceScreen>

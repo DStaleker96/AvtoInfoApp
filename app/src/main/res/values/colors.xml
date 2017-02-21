@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="et_login_border">#262ebc</color>
+    <color name="color_gumb_disable">#afaba9</color>
+    <color name="color_buttnLogin">#2b96e7</color>
+</resources>
